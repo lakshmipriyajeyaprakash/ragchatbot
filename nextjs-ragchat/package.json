@@ -1,0 +1,41 @@
+{
+  "name": "nextjs-ragchat",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "ts-node scripts/loaddb.ts",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@datastax/astra-db-ts": "^2.2.1",
+    "@google/genai": "^1.50.1",
+    "@google/generative-ai": "^0.24.1",
+    "@langchain/community": "^1.1.27",
+    "@langchain/core": "^1.1.42",
+    "@langchain/google-genai": "^2.1.29",
+    "@langchain/textsplitters": "^1.0.1",
+    "@tailwindcss/typography": "^0.5.19",
+    "dotenv": "^17.4.2",
+    "langchain": "^1.3.5",
+    "next": "16.2.4",
+    "pdf-parse": "^1.1.4",
+    "puppeteer": "^24.42.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-markdown": "^10.1.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
