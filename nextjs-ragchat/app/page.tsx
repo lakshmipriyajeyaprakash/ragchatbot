@@ -51,7 +51,6 @@ export default function Home() {
                 <Image src={raglogo} alt="RAG Chatbot Logo" width={32} height={32} className="rounded-lg" />
                 <div>
                     <h1 className="text-white font-semibold text-lg leading-none">RAG Chatbot</h1>
-                    <p className="text-slate-400 text-xs mt-0.5">Powered by Gemini + AstraDB</p>
                 </div>
             </header>
 
